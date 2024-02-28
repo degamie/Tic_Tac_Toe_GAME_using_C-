@@ -1,0 +1,2 @@
+  tictacoe_game.cpp
+C:\Users\dishi\source\repos\Tic_toe_game\tictacoe_game.cpp(12,6): error C2086: 'int Board::n': redefinition
