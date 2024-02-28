@@ -1,3 +1,6 @@
+//Developed BY Sarthak Mittal(DegamieSign)//
+//Work In Development//
+
 #include<iostream>
 #include<stdlib.h>
 #include<string>
@@ -69,3 +72,5 @@ int main() {//Main func Declare
 	b.DrawBoard(sq);//Calling DrawBoard Funct
 	return 0;
 }
+//Developed BY Sarthak Mittal(DegamieSign)//
+//Work In Development//
