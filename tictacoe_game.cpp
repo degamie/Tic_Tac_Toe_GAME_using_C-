@@ -1,19 +1,13 @@
-// Tic Tac Toe Game Using OOPS(Object Oriented Programming)
-//Developed BY Sarthak Mittal(DegamieSign)//
+// Tic Tac Toe Game Using OOPS(Object Oriented Programming) Developed By Sarthak Mittal(DegamieSign)//
 //Work In Development//
 #include<iostream>
 #include<stdlib.h>
 #include<string>
 using namespace std;
 //new_approach 
-class Board {//Board Class Declare
-private:
-	//Varibales declare in Private acces modeifier
-	int n;
-	char sq[10] = { 'O','1','2','3','4','5','6','7','8','9' };
-	//int n = 0;
-	// string s;
-	//Board(int n, string sq){s = sq;} //parameterized constructor//debug
+class Board {//Board Class Declaration
+private://Private acces modeifier
+	int n;char sq[10] = { 'O','1','2','3','4','5','6','7','8','9' };//Varibales declare
 public://public declare
 	Board(){}//Default Constructor Declare//string sq = s; s = 0; }
 	int CheckWin(int n, char sq[10]) {//CheckWin funct
