@@ -51,7 +51,7 @@ public://public declare
 			else if (select == 7 && sq[7] == '7')sq[7] = mark;
 			else if (select == 8 && sq[8] == '8')sq[8] = mark;
 			else if (select == 9 && sq[9] == '9')sq[9] = mark;
-			else player--; cout << "Invalid Move" << endl;//Printing The Invalid Move to unmatched Indx Val
+			else player--;else cout << "Invalid Move" << endl; //Printing The Invalid Move to unmatched Indx Val
 		} while (i == -1); i = CheckWin(n, sq); player++;//Iteratively Chckeing Incrementing the Player's Move 
 		cin.ignore(); cin.get();////fast input streat
 		if (i == 1)cout << "Player" << player-- << endl;//Decrementing Player Move
